@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 107px;
+  margin-bottom: 100px;
 }
 ul {
   display: flex;
@@ -57,4 +57,18 @@ strong {
 span {
   color: #00bfa6;
 }
+footer {
+  margin-top: 157px;
+  text-align: center;
 
+}
+#line {
+  border: 1px solid #00bfa6;
+  width: 568px;
+  margin: 0 auto 27px;
+}
+#Lock {
+  position: fixed;
+  left: 0;
+  bottom: 0 ;
+}
