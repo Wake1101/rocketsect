@@ -1,0 +1,31 @@
+body {
+  background: #2C2B3D;
+  min-height: 100vh;
+  font-family: 'JetBrains Mono', monospace;
+}
+.page {
+  width: 1092px;
+  margin: 0 auto;
+}
+header {
+  width: 1083px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 71px;
+}
+header ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+}
+header ul li a{
+  color: #fff;
+  text-decoration: none; 
+  font-size: 14px;
+  line-height: 28px;
+}
+header ul li a:hover {
+  font-weight: 700;
+}
